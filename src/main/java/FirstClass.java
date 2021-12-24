@@ -1,5 +1,4 @@
 public class FirstClass {
-
-    jhhj
+    abstract class A {}
 
 }
