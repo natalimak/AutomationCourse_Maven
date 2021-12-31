@@ -38,7 +38,7 @@ public class ConvertCurr_Main {
         //System.out.println(list); //Please delete me in end of project
 
         //---------------Start Over Screen-------------//
-        System.out.println("Are you want to start over? Y/N?");
+        System.out.println("Do you want to start over? Y/N?");
         startOverScreen(start);
             }
     }
@@ -170,6 +170,14 @@ public class ConvertCurr_Main {
             writer.write(String.valueOf(lastUse + "\n"));  //Wrong-print twice -write the list to file Results.txt
         }
         writer.close();
+
+        showResultsNoteped(); //show results.txt in notepad
+    }
+//----------------//show results.txt in notepad------------------
+
+    private static void showResultsNoteped() throws IOException {
+        ProcessBuilder pb = new ProcessBuilder("Notepad.exe", "Results.txt");
+        pb.start();
     }
 
 
