@@ -3,5 +3,6 @@ package tools;
 
 public enum Coins_ENUM {
     USD,
-    ILS
+    ILS,
+    EUR
 }
