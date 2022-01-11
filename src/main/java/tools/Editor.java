@@ -13,7 +13,7 @@ public class Editor extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(250, 250);
 
-        File file = new File("C:\\Users\\Administrator\\IdeaProjects\\AutomationCourse_Maven\\Results.txt");
+        File file = new File("Results.txt");
         FileInputStream fis = null;
         String texto = "";
 
@@ -36,7 +36,7 @@ public class Editor extends JFrame {
         }
 
         JTextArea textArea = new JTextArea(texto);
-        textArea.setLineWrap(true); //quebra de linha automática
+        textArea.setLineWrap(true);
         add(textArea);
     }
 
