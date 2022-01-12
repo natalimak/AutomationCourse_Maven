@@ -10,10 +10,10 @@ public class Screen_startOver {
         while (!s.equalsIgnoreCase("y") && !s.equalsIgnoreCase("n")) {
 
             try {
-                StartOver sOver=new StartOver();
+                StartOver sOver = new StartOver();
                 s = sOver.inputToStartOver();
-                if (s.equalsIgnoreCase("n")){
-                    Screen_end screenEnd= new Screen_end();
+                if (s.equalsIgnoreCase("n")) {
+                    Screen_end screenEnd = new Screen_end();
                     screenEnd.endScreen(list);
                 }
             } catch (InputMismatchException | IllegalStateException | IOException e) {
