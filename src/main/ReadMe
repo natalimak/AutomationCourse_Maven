@@ -1,0 +1,8 @@
+Program will convert currency between:
+>USD (United States Dollars)
+>ILS (Israeli Shekel)
+>EUR (Euro)
+in end of season, will show current season results in internal editor and Notepad
+
+to start program:
+>ConvertCurr_Main
